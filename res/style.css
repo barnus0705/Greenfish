@@ -1,0 +1,34 @@
+body
+{
+    display: block;
+    margin: 0;
+}
+.splide__pagination__page
+{
+    background: black;
+}
+header
+{
+    background-color: darkgreen;
+    width: 100%;
+    height: 50px;
+}
+header p
+{
+
+}
+.first
+{
+    background-color: lightgreen;
+    width: 100%;
+}
+.second
+{
+
+}
+.third
+{
+
+}
+
+
