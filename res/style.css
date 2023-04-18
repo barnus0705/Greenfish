@@ -1,6 +1,12 @@
+@font-face
+{
+    font-family: "Poppins";
+    src: url(../res/Font-Poppins/Poppins-Medium.ttf);
+}
 body
 {
     display: block;
+    font-family: Poppins;
     margin: 0;
 }
 .splide__pagination__page
@@ -9,26 +15,53 @@ body
 }
 header
 {
-    background-color: darkgreen;
+    margin: auto;
+
     width: 100%;
-    height: 50px;
-}
-header p
-{
+    height: auto;
 
 }
-.first
+header h1
 {
-    background-color: lightgreen;
+    margin: auto;
+    padding: 20px 20px 20px 70px;
+    font-size: 48px;
+
+}
+hr
+{
+    border: 1px solid black;
+    opacity: 50%;
+    width: 95%;
+}
+.first, .second, .third
+{
     width: 100%;
+    display: flex;
+    height: auto;
+    margin: auto;
 }
-.second
+.first div, .second div, .third div
 {
-
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    flex-wrap: wrap;
+    border: 3px solid black;
 }
-.third
+.Contact_bar
 {
-
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.Contact_bar ul
+{
+    display: flex;
+}
+.Contact_bar ul li
+{
+    margin: 20px;
 }
 
 
