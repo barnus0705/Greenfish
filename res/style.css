@@ -35,7 +35,7 @@ hr
     opacity: 50%;
     width: 95%;
 }
-.first, .second, .last
+.splide__slide
 {
     width: 100%;
     display: flex;
@@ -44,9 +44,13 @@ hr
     margin: auto;
 
 }
-.first div, .second div, .last div
+.swapped_column
 {
-    height: 50%;
+    flex-direction: row-reverse;
+}
+.inner_part
+{
+    height: 100%;
     flex: 1 1 50%;
 }
 
@@ -54,15 +58,15 @@ hr
 {
     margin: 20px;
 }
-.last div
+.last .inner_part
 {
-    height: 90%;
+    height: calc(100% - 60px);
 }
 .Contact_bar
 {
     width: 100%;
-    height: 100px;
-    margin: auto;
+    height: 60px;
+    margin: 0;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -70,8 +74,10 @@ hr
     align-items: center;
 
 }
-.Contact_bar > div{
+.Contact_bar .Contact_bar_column{
     height: fit-content;
+    display: block;
+    width: calc(100% / 3);
 }
 
 
