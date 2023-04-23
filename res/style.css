@@ -7,6 +7,7 @@ body
 {
     display: block;
     font-family: Poppins;
+    background-color: rgb(237, 241, 214);
     margin: 0;
 }
 .splide__pagination__page
@@ -16,7 +17,7 @@ body
 header
 {
     margin: auto;
-
+    background-color: rgb(64, 81, 59);
     width: 100%;
     height: auto;
 
@@ -34,39 +35,42 @@ hr
     opacity: 50%;
     width: 95%;
 }
-.first, .second, .third
+.first, .second, .last
 {
     width: 100%;
     display: flex;
-    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
 
 }
-.first div, .second div, .third div
+.first div, .second div, .last div
 {
     height: 50%;
-    width: 50%;
-    flex-wrap: wrap;
-    flex-grow: 2;
-    border: 3px solid black;
+    flex: 1 1 50%;
 }
 
-.firsthalf p{
+.firsthalf p
+{
     margin: 20px;
+}
+.last div
+{
+    height: 90%;
 }
 .Contact_bar
 {
-    width: auto;
-    height: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
     margin: auto;
-}
-.Contact_bar ul
-{
     display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(157, 192, 139);
 }
-.Contact_bar ul li
-{
-    margin: 20px;
-}
+
 
 
