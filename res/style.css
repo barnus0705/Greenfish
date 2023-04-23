@@ -40,14 +40,19 @@ hr
     display: flex;
     height: auto;
     margin: auto;
+
 }
 .first div, .second div, .third div
 {
-    height: 200px;
-    width: 200px;
-    margin: 100px;
+    height: 50%;
+    width: 50%;
     flex-wrap: wrap;
+    flex-grow: 2;
     border: 3px solid black;
+}
+
+.firsthalf p{
+    margin: 20px;
 }
 .Contact_bar
 {
