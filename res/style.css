@@ -7,7 +7,6 @@ body
 {
     display: block;
     font-family: Poppins;
-
     margin: 0;
 }
 .splide__pagination__page
@@ -17,30 +16,41 @@ body
 header
 {
     margin: auto;
-    display: flex;
     width: 100%;
     height: auto;
-
+    color: white;
+    background-color: black;
 }
 header h1
 {
-
     padding: 20px 20px 20px 70px;
     font-size: 48px;
-
+    background-color: black;
 }
-ul
+.Title_block
+{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.splide_list
 {
     margin-block: auto;
     display: flex;
 
 
 }
-ul > li
+.splide_list > .splide_list_items
     {
     margin-right: 20px;
     list-style: none;
 }
+.splide_list_items > a
+{
+    text-decoration: none;
+    color: white;
+}
+
 .splide__slide
 {
     width: 100%;
