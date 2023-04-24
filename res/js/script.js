@@ -7,3 +7,8 @@ document.addEventListener( 'DOMContentLoaded', function() {
     splide.mount();
 }
 );
+let link = document.getElementById("1");
+link.addEventListener("gonetohome", function (){
+   let splide = new Splide();
+   console.log(splide.getIndex().value)
+});
