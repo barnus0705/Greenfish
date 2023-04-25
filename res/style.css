@@ -13,7 +13,7 @@ body
 {
     background: black;
 }
-header
+/*header
 {
     margin: auto;
     width: 100%;
@@ -50,7 +50,7 @@ header h1
     text-decoration: none;
     color: white;
 }
-
+*/
 .splide__slide
 {
     width: 100%;
@@ -66,9 +66,15 @@ header h1
 }
 .inner_part
 {
-    height: 100%;
+    height: calc(100% - 100px);
     flex: 1 1 50%;
+
 }
+.card
+{
+
+}
+/*
 
 .firsthalf p
 {
@@ -95,6 +101,6 @@ header h1
     display: block;
     width: calc(100% / 3);
 }
-
+*/
 
 
